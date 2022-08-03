@@ -28,6 +28,15 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:gravity="center"
+        android:text="@string/monto"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/textView_ending_3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
         android:text="@string/pay_method_message"
         android:textSize="23sp" />
 

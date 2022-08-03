@@ -19,6 +19,7 @@
 
     <string name="finished_message">Los pedidos que realizó son:</string>
     <string name="pay_method_message">¿Qué medio de pago desea seleccionar?</string>
+    <string name="monto">Total: %1$d</string>
     <string name="money">Efectivo</string>
     <string name="card">Tarjeta</string>
     <string name="confirmar_pago">Confirmar</string>
