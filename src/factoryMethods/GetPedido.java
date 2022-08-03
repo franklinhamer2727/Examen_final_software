@@ -6,11 +6,11 @@ class GetPedido{
         if (namePedido == null){
             return null;
         }
-        if(namePedido.equalsIgnoreCase('Menu')){
-            return  Menu();
+        if(namePedido.equalsIgnoreCase("Menu")){
+            return new Menu();
         }
-        else  if(namePedido.equalsIgnoreCase('Carta')){
-            return  Carta();
+        else  if(namePedido.equalsIgnoreCase("Carta")){
+            return new Carta();
         }
     return null;
 
