@@ -1,12 +1,11 @@
-public class Efectivo extends MetodoPago{
-    /*
-    public String pagar(){
+public class Efectivo extends MetodoPago {
 
-        //super(cuenta);
-        return "";
-    }*/
-    @Override
-    public String pagar(){
-        return "Gracias por su visita su cuenta fue"+cuenta.pagar();
+    public Efectivo(Cuenta c){
+        super(c);
     }
+    @Override
+    public void pagar(){
+        System.out.print("Su cuenta fue cobrada en "+cuenta.setCuenta());
+    }
+
 }
