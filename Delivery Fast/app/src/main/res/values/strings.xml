@@ -5,9 +5,17 @@
     <string name="Bienvenida3">Bienvenido, Eliga una opciion para elegir su almuerzo</string>
     <string name="descrip">Comida</string>
 
-    <string name="boton1">Menu</string>
+    <string name="boton1">Menú</string>
     <string name="boton2">Carta</string>
 
+    <string name="mensaje">¿Que platos desea?</string>
+
+    <string name="plato1">Seco de pollo</string>
+    <string name="plato2">Tallarines con chuleta</string>
+    <string name="plato3">Arroz con pollo</string>
+    <string name="plato4">Lomo saltado</string>
+    <string name="plato5">Picante de carne</string>
+    <string name="plato6">Locro de zapallo</string>
 
     <string name="finished_message">Los pedidos que realizó son:</string>
     <string name="pay_method_message">¿Qué medio de pago desea seleccionar?</string>
@@ -15,5 +23,16 @@
     <string name="card">Tarjeta</string>
     <string name="confirmar_pago">Confirmar</string>
 
+
+    <string name="plato7">Chaufa Especial</string>
+    <string name="plato8">Bisteck a lo pobre</string>
+    <string name="plato9">Lomo fino al jugo</string>
+    <string name="plato10">Costillas de cerdo</string>
+    <string name="plato11">Tallarines Con milanesa</string>
+    <string name="plato12">Cordon Bleu</string>
+
+
+
+    <string name="pedir">Pedir</string>
 
 </resources>

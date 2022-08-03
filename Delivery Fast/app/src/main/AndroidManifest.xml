@@ -17,6 +17,12 @@
             android:name=".EndingActivity"
             android:exported="false" />
         <activity
+            android:name=".Carta"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
             android:name=".Splash"
             android:exported="true">
             <intent-filter>
