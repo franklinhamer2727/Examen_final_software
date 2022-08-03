@@ -11,4 +11,4 @@ Proyecto de desarrollo de examen final de desarrollo de software
 # Command
 
 Doc:
-https://docs.google.com/document/d/1sjz2IEMY0cnABzEsODv3JvvrxB5ts473TgLcjIPxE4Y/edit
+https://docs.google.com/document/d/1zWZhZgU-6OcVlKQOiL7j9qs_ASS-Ddxa/edit
