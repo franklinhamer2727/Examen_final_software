@@ -2,6 +2,12 @@
     <string name="app_name">Delivery Fast</string>
     <string name="Bienvenida1">Delivery Fast</string>
     <string name="Bienvenida2">Tu pedido siempre caliente</string>
+    <string name="Bienvenida3">Bienvenido, Eliga una opciion para elegir su almuerzo</string>
+    <string name="descrip">Comida</string>
+
+    <string name="boton1">Menu</string>
+    <string name="boton2">Carta</string>
+
 
 
 </resources>
