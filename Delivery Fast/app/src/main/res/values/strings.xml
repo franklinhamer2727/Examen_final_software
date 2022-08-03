@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Delivery Fast</string>
+    <string name="Bienvenida1">Delivery Fast</string>
+    <string name="Bienvenida2">Tu pedido siempre caliente</string>
+
+
 </resources>
