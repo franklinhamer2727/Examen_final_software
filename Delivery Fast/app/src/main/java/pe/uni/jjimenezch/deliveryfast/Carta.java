@@ -2,6 +2,7 @@ package pe.uni.jjimenezch.deliveryfast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -31,6 +32,12 @@ public class Carta extends AppCompatActivity {
         plato12=findViewById(R.id.plato12);
 
         pedir = findViewById(R.id.pedir);
+
+
+        pedir.setOnClickListener(view -> {
+            Intent intent4 = new Intent(Carta.this,EndingActivity.class);
+            startActivity(intent4);
+        });
 
     }
 }

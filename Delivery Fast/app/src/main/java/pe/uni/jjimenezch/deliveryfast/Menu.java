@@ -2,6 +2,7 @@ package pe.uni.jjimenezch.deliveryfast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -34,8 +35,10 @@ public class Menu extends AppCompatActivity {
 
 
 
-
-
+        pedir.setOnClickListener(view -> {
+            Intent intent3 = new Intent(Menu.this,EndingActivity.class);
+            startActivity(intent3);
+        });
 
 
     }
