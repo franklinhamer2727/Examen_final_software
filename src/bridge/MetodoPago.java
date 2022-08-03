@@ -2,5 +2,8 @@ public abstract class MetodoPago{
     protected Cuenta cuenta;
     //standards constructores
 
-    abstract public String pagar();
+    public MetodoPago(Cuenta c){
+        this.cuenta = c;
+    }
+    abstract  public void pagar();
 }
