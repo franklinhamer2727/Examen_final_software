@@ -1,10 +1,8 @@
-package factoryMethods;
-
 import  java.io.*;
 import java.util.Objects;
 
 class principal{
-    public static <GetPedido> void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         GetPedido ido = new GetPedido();
 
 
@@ -20,10 +18,11 @@ class principal{
         int unidades =Integer.parseInt(br.readLine());
 
         Pedido p = ido.getPedido(compra);
+        System.out.println(p);
 
         System.out.print("Su cuenta es:");
         p.getPrecio();
-        System.out.println(p.Calculator(unidades));
+        p.Calculator(unidades);
 
 
         //Command
@@ -48,7 +47,9 @@ class principal{
         if (Objects.equals(opcion, "Targeta")){
             MetodoPago pa = new Tarjeta(new Consumo());
             pa.pagar();
-            System.out.println("Gracias por su visita!!!!");
+
+
+            System.out.println(" Gracias por su visita!!!!");
 
         }
         else{

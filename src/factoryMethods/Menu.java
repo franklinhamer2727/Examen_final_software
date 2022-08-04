@@ -1,6 +1,7 @@
 class Menu extends Pedido{
     @Override
-    public void getPrecio(){
+    public String getPrecio(){
         precio = 12.00;
+        return null;
     }
 }

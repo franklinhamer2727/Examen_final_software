@@ -5,5 +5,5 @@ public abstract class MetodoPago{
     public MetodoPago(Cuenta c){
         this.cuenta = c;
     }
-    abstract  public void pagar();
+    abstract  public String pagar();
 }

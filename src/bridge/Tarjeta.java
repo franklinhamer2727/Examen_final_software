@@ -4,8 +4,9 @@ public class Tarjeta extends MetodoPago {
         super(c);
     }
     @Override
-    public void pagar(){
+    public String pagar(){
         System.out.print("Su cuenta fue "+cuenta.setCuenta());
+        return null;
     }
 
 }

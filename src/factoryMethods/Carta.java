@@ -1,6 +1,7 @@
 class Carta extends Pedido{
     @Override
-    public void getPrecio(){
+    public String getPrecio(){
         precio = 25.00;
+        return null;
     }
 }

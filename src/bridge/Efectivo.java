@@ -4,8 +4,9 @@ public class Efectivo extends MetodoPago {
         super(c);
     }
     @Override
-    public void pagar(){
+    public String pagar(){
         System.out.print("Su cuenta fue cobrada en "+cuenta.setCuenta());
+        return null;
     }
 
 }
