@@ -11,8 +11,8 @@ Bridge es un patrón de diseño estructural que te permite dividir una clase gra
 # Factory Methods
 Abstract Factory es un patrón de diseño creacional que nos permite producir familias de objetos relacionados sin especificar sus clases concretas.
 
-![factory_methods](https://user-images.githubusercontent.com/79879867/182282548-939eaabd-97b0-4c08-8cec-9ea018fc8ab1.png)
-# Command
+![WhatsApp Image 2022-08-03 at 4 29 06 AM](https://user-images.githubusercontent.com/79879867/182812931-ca79c0d0-3f52-41a5-941f-b7717ef58834.jpeg)
+
 
 # Command
 
