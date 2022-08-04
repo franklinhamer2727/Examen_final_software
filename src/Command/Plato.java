@@ -8,7 +8,6 @@ public class Plato {
         this.id = id;
         this.nombre = nombre;
     }
-
     public int getId() {
         return id;
     }
