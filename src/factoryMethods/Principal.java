@@ -21,7 +21,7 @@ class principal{
 
         System.out.print("Su cuenta es:");
         p.getPrecio();
-        p.Calculator(unidades);
+        System.out.println(p.Calculator(unidades));
 
 
         //Command
