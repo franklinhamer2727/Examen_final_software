@@ -18,6 +18,6 @@ Abstract Factory es un patrón de diseño creacional que nos permite producir fa
 
 Command es un patrón de diseño de comportamiento que convierte una solicitud en un objeto independiente que contiene toda la información sobre la solicitud. Esta transformación te permite parametrizar los métodos con diferentes solicitudes, retrasar o poner en cola la ejecución de una solicitud y soportar operaciones que no se pueden realizar
 
-Doc:![WhatsApp Image 2022-08-03 at 4 27 32 AM](https://user-images.githubusercontent.com/79879867/182812606-ff3c3fd2-408c-4dbf-b7d7-eaf530be346c.jpeg)
+![WhatsApp Image 2022-08-03 at 4 27 32 AM](https://user-images.githubusercontent.com/79879867/182812606-ff3c3fd2-408c-4dbf-b7d7-eaf530be346c.jpeg)
 
-https://docs.google.com/document/d/1zWZhZgU-6OcVlKQOiL7j9qs_ASS-Ddxa/edit
+Doc: https://docs.google.com/document/d/1zWZhZgU-6OcVlKQOiL7j9qs_ASS-Ddxa/edit
