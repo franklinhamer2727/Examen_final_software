@@ -19,13 +19,17 @@ public class EndingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_ending);
 
         Resources res = getResources();
 
         listView = findViewById(R.id.list_view_ending);
         textView = findViewById(R.id.textView_ending_2);
+
+            /*
         platos = getArray();
+
 
         arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, platos);
         listView.setAdapter(arrayAdapter);
@@ -36,9 +40,14 @@ public class EndingActivity extends AppCompatActivity {
         });
 
         textView.setText(String.format(res.getString(R.string.monto), 10));
+
     }
 
     protected String[] getArray(){
         return null;
+
+            */
+
+
     }
 }
