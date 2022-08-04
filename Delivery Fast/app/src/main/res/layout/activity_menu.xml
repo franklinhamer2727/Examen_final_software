@@ -2,11 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="300dp"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:layout_gravity="center"
     android:orientation="vertical"
+    android:background="@drawable/fondo1"
+    android:padding="35dp"
     tools:context=".Menu">
 
     <TextView
@@ -16,6 +18,7 @@
         android:gravity="center"
         android:text="@string/boton1"
         android:textSize="40sp"
+        android:textColor="@color/pastel5"
         android:layout_marginBottom="20dp"/>
 
     <TextView
@@ -25,6 +28,7 @@
         android:gravity="center"
         android:text="@string/mensaje"
         android:textSize="30sp"
+        android:textColor="@color/pastel5"
         android:layout_marginBottom="20dp"/>
 
 
@@ -32,13 +36,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-    <CheckBox
-        android:id="@+id/plato1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/plato1"
+        <CheckBox
+            android:id="@+id/plato1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plato1"
 
-        />
+            />
 
     <TextView
         android:id="@+id/precio1"

@@ -7,16 +7,18 @@
     android:orientation="vertical"
     android:gravity="center"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fondo1"
     tools:context=".MainActivity">
 
 
     <TextView
         android:id="@+id/textView_main_1"
         android:layout_width="300dp"
-        android:layout_height="80dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:gravity="center"
-        android:textSize="23sp"
+        android:textSize="25sp"
+        android:textColor="@color/pastel5"
         android:text="@string/Bienvenida3"
         />
 
