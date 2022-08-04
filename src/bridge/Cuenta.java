@@ -1,5 +1,4 @@
 public interface Cuenta{
-    int monto();
+    public String setCuenta();
 
-    String pagar();
 }

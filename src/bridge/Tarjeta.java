@@ -1,11 +1,11 @@
 public class Tarjeta extends MetodoPago {
-    /*public String paCalculatorgar(Cuenta cuenta) {
-        //super(cuenta);
-        return "";
-    }*/
 
-    @Override
-    public String pagar() {
-        return "Gracias por su visita su cuenta fue" + cuenta.pagar();
+    public Tarjeta(Cuenta c){
+        super(c);
     }
+    @Override
+    public void pagar(){
+        System.out.print("Su cuenta fue "+cuenta.setCuenta());
+    }
+
 }
