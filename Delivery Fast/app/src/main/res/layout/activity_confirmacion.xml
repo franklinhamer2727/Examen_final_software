@@ -51,5 +51,26 @@
         android:textSize="25sp"
         android:layout_marginBottom="20dp"/>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttom_nuevo"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/pedir"/>
+
+        <Button
+            android:id="@+id/buttom_salir"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/salir"/>
+
+    </LinearLayout>
+
 
 </LinearLayout>

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -16,6 +17,7 @@ public class EndingActivity extends AppCompatActivity {
     TextView textView;
     String[] platos;
     ArrayAdapter<String> arrayAdapter;
+    Button buttom_accept;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +29,7 @@ public class EndingActivity extends AppCompatActivity {
 
         listView = findViewById(R.id.list_view_ending);
         textView = findViewById(R.id.textView_ending_2);
+        buttom_accept = findViewById(R.id.buttom_accept);
 
             /*
         platos = getArray();
@@ -48,8 +51,9 @@ public class EndingActivity extends AppCompatActivity {
         return null;
 
             */
-
-        Intent intent = new Intent(EndingActivity.this,Confirmacion.class);
-        startActivity(intent);
+        buttom_accept.setOnClickListener(view -> {
+            Intent intent = new Intent(EndingActivity.this,Confirmacion.class);
+            startActivity(intent);
+        });
     }
 }
