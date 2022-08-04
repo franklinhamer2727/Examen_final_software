@@ -33,6 +33,12 @@
         android:textColor="@color/pastel5"
         android:layout_marginBottom="20dp"/>
 
+    <ListView
+        android:id="@+id/list_view_confirmation"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
     <TextView
         android:id="@+id/textview_confirmacion_3"
         android:layout_width="match_parent"

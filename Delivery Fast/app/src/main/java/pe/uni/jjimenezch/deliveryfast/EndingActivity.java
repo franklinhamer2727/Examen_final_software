@@ -102,6 +102,7 @@ public class EndingActivity extends AppCompatActivity {
 
             Intent intent = new Intent(EndingActivity.this, Confirmacion.class);
             intent.putExtra("MONTO FINAL", pedido.Calculator(numPedidos));
+            intent.putExtra("LISTA PEDIDOS", platos);
             startActivity(intent);
             finish();
         });
