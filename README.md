@@ -1,6 +1,9 @@
 
 # Examen_final_software
-Proyecto de desarrollo de examen final de desarrollo de software
+En los últimos años debido al confinamiento, a nivel mundial, el mundo tuvo que reinventarse esto trajo consigo el surgimiento de un nuevo mercado, el de las las compras por línea, debido a que las personas no podían salir de sus hogares este nuevo mercado escaló rápidamente y se posicionó como uno de los más importantes.
+En los países desarrollados ya existen empresas que se han adueñado de este mercado y entre las más importantes podemos encontrar “GrubHub”, “Just Eat”, “Delivery”,si bien en américa latina contamos con empresas que intentan replicar este modelo internacional, existen países en los cuales, recien estan llegando al mercado, por esta razón dichos países aún no tienen la suficiente cobertura para abastecer todo el territorio del país.
+Debido a lo mencionado nace este “Delivery Fast”, como una alternativa de implementar un delivery de manera local, en lugares a los que todavía no han llegado o en su defecto, no sea suficiente la cobertura de estas conocidas empresas.
+
 # H1 Bridge
 Bridge es un patrón de diseño estructural que te permite dividir una clase grande, o un grupo de clases estrechamente relacionadas, en dos jerarquías separadas (abstracción e implementación) que pueden desarrollarse independientemente la una de la otra.
 
