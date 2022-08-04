@@ -27,6 +27,11 @@
         android:textSize="30sp"
         android:layout_marginBottom="20dp"/>
 
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
     <CheckBox
         android:id="@+id/plato1"
         android:layout_width="match_parent"
@@ -34,43 +39,145 @@
         android:text="@string/plato1"
 
         />
-    <CheckBox
-        android:id="@+id/plato2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/plato2"
 
+    <TextView
+        android:id="@+id/precio1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/precio"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:layout_alignEnd="@+id/plato1"
+        android:textColor="@color/black"
         />
 
-    <CheckBox
-        android:id="@+id/plato3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/plato3"
+    </RelativeLayout>
 
-        />
-    <CheckBox
-        android:id="@+id/plato4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/plato4"
 
-        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
-    <CheckBox
-        android:id="@+id/plato5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/plato5"
+        <CheckBox
+            android:id="@+id/plato2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plato2"
 
-        />
-    <CheckBox
-        android:id="@+id/plato6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/plato6"
+            />
 
-        />
+        <TextView
+            android:id="@+id/precio2"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/precio"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_alignEnd="@+id/plato2"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/plato3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plato3"
+
+            />
+
+        <TextView
+            android:id="@+id/precio3"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/precio"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_alignEnd="@+id/plato3"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/plato4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plato4"
+
+            />
+
+        <TextView
+            android:id="@+id/precio4"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/precio"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_alignEnd="@+id/plato4"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/plato5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plato5"
+
+            />
+
+        <TextView
+            android:id="@+id/precio5"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/precio"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_alignEnd="@+id/plato5"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/plato6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plato6"
+
+            />
+
+        <TextView
+            android:id="@+id/precio6"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/precio"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_alignEnd="@+id/plato6"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
 
     <Button
         android:id="@+id/pedir"

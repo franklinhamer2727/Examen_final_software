@@ -11,6 +11,11 @@
     <string name="mensaje">¿Que platos desea?</string>
 
     <string name="plato1">Seco de pollo</string>
+
+    <string name="precio">S/ 15</string>
+    <string name="precioCarta">S/ 25</string>
+
+
     <string name="plato2">Tallarines con chuleta</string>
     <string name="plato3">Arroz con pollo</string>
     <string name="plato4">Lomo saltado</string>
