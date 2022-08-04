@@ -23,6 +23,10 @@ Command es un patrón de diseño de comportamiento que convierte una solicitud e
 
 ![WhatsApp Image 2022-08-03 at 4 27 32 AM](https://user-images.githubusercontent.com/79879867/182812606-ff3c3fd2-408c-4dbf-b7d7-eaf530be346c.jpeg)
 
+Diagrama completo del proyecto
+
+![imagen](https://user-images.githubusercontent.com/79879867/182874839-c34d86a6-2d3f-4c0e-93db-d8d727e9d029.png)
+
 
 Resultados obtenidoa al ejecutar el codigo
 
