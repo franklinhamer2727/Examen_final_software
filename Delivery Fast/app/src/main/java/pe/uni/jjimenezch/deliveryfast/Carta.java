@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.Toast;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -70,10 +71,15 @@ public class Carta extends AppCompatActivity {
                 listaPedidos.add(plato12.getText().toString());
             }
 
-            intent.putExtra("NUM PEDIDOS", numPedidos);
-            intent.putExtra("PEDIDO", pedido);
-            intent.putExtra("LISTA PEDIDOS", listaPedidos);
-            startActivity(intent);
+            if (numPedidos > 0){
+                intent.putExtra("NUM PEDIDOS", numPedidos);
+                intent.putExtra("PEDIDO", pedido);
+                intent.putExtra("LISTA PEDIDOS", listaPedidos);
+                startActivity(intent);
+            }
+            else{
+                Toast.makeText(getApplicationContext(), "Selecciona como mínimo una opción", Toast.LENGTH_LONG).show();
+            }
         });
 
     }
