@@ -3,10 +3,12 @@
 
     android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="300dp"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:gravity="center"
+    android:padding="40dp"
+    android:background="@drawable/fondo1"
     tools:context=".Confirmacion">
 
 
@@ -19,7 +21,7 @@
         android:text="@string/Confirmacion1"
         android:textSize="40sp"
         android:layout_marginBottom="20dp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/pastel5"/>
 
     <TextView
         android:id="@+id/textview_confirmacion_2"
@@ -28,7 +30,7 @@
         android:gravity="center"
         android:text="@string/Confirmacion2"
         android:textSize="30sp"
-        android:textColor="@color/black"
+        android:textColor="@color/pastel5"
         android:layout_marginBottom="20dp"/>
 
     <TextView
@@ -38,7 +40,7 @@
         android:gravity="center"
         android:text="@string/Total"
         android:textSize="30sp"
-        android:textColor="@color/black"
+        android:textColor="@color/pastel5"
         android:layout_marginBottom="20dp"/>
 
     <TextView
@@ -46,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textColor="@color/black"
+        android:textColor="@color/pastel5"
         android:text="@string/Confirmacion3"
         android:textSize="25sp"
         android:layout_marginBottom="20dp"/>

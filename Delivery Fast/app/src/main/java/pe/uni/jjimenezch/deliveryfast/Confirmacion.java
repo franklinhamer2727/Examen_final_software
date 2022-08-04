@@ -19,11 +19,6 @@ public class Confirmacion extends AppCompatActivity {
         buttom_nuevo = findViewById(R.id.buttom_nuevo);
         buttom_salir = findViewById(R.id.buttom_salir);
 
-
-
-
-
-
         buttom_nuevo.setOnClickListener(view -> {
             Intent intent1 = new Intent(Confirmacion.this,MainActivity.class);
             startActivity(intent1);
