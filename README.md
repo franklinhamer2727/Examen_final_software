@@ -22,7 +22,10 @@ Command es un patrón de diseño de comportamiento que convierte una solicitud e
 
 
 Resultados obtenidoa al ejecutar el codigo
+
+
 ![imagen](https://user-images.githubusercontent.com/79879867/182863051-7e5b9c80-947b-4d10-86bb-ce6bbbdaac43.png)
+
 Pruebas automaticas
 
 ![imagen](https://user-images.githubusercontent.com/79879867/182863211-5b658795-54b4-424f-929c-2df461b70872.png)
