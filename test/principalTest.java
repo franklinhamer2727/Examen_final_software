@@ -10,12 +10,21 @@ public class principalTest {
         String i = "25";
         String valor = ido.getPedido(compra).getPrecio();
         assertArrayEquals(i,valor);
+        
         String  compra2 = "Menu";
         String j = "12";
         String valor2 = ido.getPedido(compra2).getPrecio();
         assertArrayEquals(j,valor2);
 
         SuperTarea st = new SuperTarea();
+
+        //st.addTarea(new TareaRegistrarPlato());
+        st.addTarea(new TareaListarPlato());
+        String pedido = "Hamburguesa";
+        GestorTareas gt= new GestorTareas();
+        Plato plato= new Plato(1,pedido);
+        String hamburguesa = "Hamburguesa";
+        assertArrayEquals(gt.ejecutar(st,plato),hamburguesa);
 
     }
     private boolean assertArrayEquals(String i, String valor) {
