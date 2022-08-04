@@ -2,6 +2,7 @@ package pe.uni.jjimenezch.deliveryfast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
@@ -48,6 +49,7 @@ public class EndingActivity extends AppCompatActivity {
 
             */
 
-
+        Intent intent = new Intent(EndingActivity.this,Confirmacion.class);
+        startActivity(intent);
     }
 }

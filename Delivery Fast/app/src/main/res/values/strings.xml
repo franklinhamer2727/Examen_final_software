@@ -49,4 +49,13 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
 
+    <string name="Confirmacion1">Gracias por su compra</string>
+    <string name="Confirmacion2">Su pedido es el siguiente</string>
+
+
+    <string name="Total">Total</string>
+    <string name="Confirmacion3">Su pedido está siendo preparado</string>
+
+
+
 </resources>
