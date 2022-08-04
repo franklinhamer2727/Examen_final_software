@@ -1,8 +1,10 @@
+package factoryMethods;
+
 import  java.io.*;
 import java.util.Objects;
 
 class principal{
-    public static void main(String[] args) throws IOException {
+    public static <GetPedido> void main(String[] args) throws IOException {
         GetPedido ido = new GetPedido();
 
 
