@@ -35,7 +35,8 @@ Resultados obtenidoa al ejecutar el codigo
 
 Pruebas automaticas
 
-![imagen](https://user-images.githubusercontent.com/79879867/182863211-5b658795-54b4-424f-929c-2df461b70872.png)
+![test](https://user-images.githubusercontent.com/79879867/183258164-284b6e88-3aed-479b-82b2-924de624be26.png)
+
 
 
 Doc: https://docs.google.com/document/d/1zWZhZgU-6OcVlKQOiL7j9qs_ASS-Ddxa/edit
